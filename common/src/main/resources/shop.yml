@@ -403,7 +403,7 @@ shop:
         amount: 10
       reward:
       - type: MONSTER_EGG
-        damage: 91                                            // Specify the monster type by using damage value. (Minecraft 1.12 lower only.)
+        damage: 91                                            # Specify the monster type by using damage value. (Minecraft 1.12 lower only.)
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
