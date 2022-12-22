@@ -403,6 +403,7 @@ shop:
         amount: 10
       reward:
       - type: MONSTER_EGG
+        damage: 91                                            // Specify the monster type by using damage value. (Minecraft 1.12 lower only.)
         meta:
           ==: ItemMeta
           meta-type: UNSPECIFIC
@@ -430,6 +431,7 @@ shop:
         amount: 3
       reward:
       - type: POTION
+        damage: 8197
         meta:
           ==: ItemMeta
           meta-type: POTION
@@ -439,6 +441,7 @@ shop:
         amount: 5
       reward:
       - type: POTION
+        damage: 8229
         meta:
           ==: ItemMeta
           meta-type: POTION
@@ -448,6 +451,7 @@ shop:
         amount: 7
       reward:
       - type: POTION
+        damage: 8194
         meta:
           ==: ItemMeta
           meta-type: POTION
@@ -456,6 +460,7 @@ shop:
       - type: GOLD_INGOT
       reward:
       - type: POTION
+        damage: 8201
         meta:
           ==: ItemMeta
           meta-type: POTION
@@ -465,6 +470,7 @@ shop:
         amount: 3
       reward:
       - type: POTION
+        damage: 8193
         meta:
           ==: ItemMeta
           meta-type: POTION
